@@ -1,0 +1,58 @@
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+.design::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -27%;
+  border-radius: 50%;
+  width: 774px;
+  height: 757px;
+  background: rgb(237, 240, 247, 0.5);
+  box-shadow: 20px 20px 30px rgb(237, 240, 247, 0.5);
+}
+.design::after {
+  content: "";
+  position: absolute;
+  top: 270px;
+  left: -130px;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(250, 244, 254, 0.5);
+  box-shadow: 20px 20px 30px rgb(250, 244, 254, 0.6);
+}
+.design1::after {
+  content: "";
+  position: absolute;
+  top: -27%;
+  left: 27%;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  width: 524px;
+  height: 524px;
+  background: rgb(251, 243, 241, 0.5);
+  box-shadow: 20px 20px 70px rgb(251, 243, 241, 0.5);
+}
+.sallyshadow::before {
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: 48%;
+  right: 0;
+  bottom: 0;
+  width: 694.45px;
+  height: 240px;
+  border-radius: 40%;
+  transform: rotate(-4deg);
+  background: url(../../../assets/img/svg/Vector2.svg);
+  box-shadow: 14px 30px 30px #faf5fe;
+}
+.inner-body{
+  margin-top: 15rem;
+}

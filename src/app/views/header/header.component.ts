@@ -11,5 +11,10 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  signUpCall(){
+    alert('this is tumi')
+  }
+  signInCall(){
+alert('i dont recognise tumilola')
+  }
 }

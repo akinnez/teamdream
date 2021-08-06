@@ -1,0 +1,35 @@
+*{
+  transition: all 3s ease-in-out;
+}
+.bdy{
+  padding-top: 5rem;
+}
+h1{
+  font-size: 40px;
+  font-weight: 800;
+  color: #654182;
+  line-height: 44px;
+}
+span{
+  font-size: 16px;
+  line-height: 24px;
+}
+.btn {
+  padding: 10px 20px;
+  letter-spacing: 3%;
+  border-radius: 10px;
+}
+.mr-4 {
+  font-size: 14px;
+  background: #fdae55;
+  color: #ffebd5;
+}
+.mr-4:hover {
+  transform: scale(1.1);
+  background: #654182;
+  color: #fff;
+}
+.download {
+  position: relative;
+  bottom: 5px;
+}

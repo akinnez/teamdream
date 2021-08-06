@@ -1,22 +1,27 @@
 import { NgModule } from '@angular/core';
 
 import { CommonModule } from '@angular/common';
-import { DefaultComponent } from './default.component';
+import { DefaultHomeComponent } from './defaultHome.component';
 import { ViewsModule } from 'src/app/views/views.module';
+import { ComponentsModule } from 'src/app/components/components.module';
+import { MaterialModule } from 'src/app/material/material/material.module';
+import { DefaultDownloadComponent } from '../default-download/default-download.component';
 
 
 
 
 @NgModule({
   declarations: [
-    DefaultComponent
+    DefaultHomeComponent,DefaultDownloadComponent
   ],
   imports: [
     CommonModule,
     ViewsModule,
+    ComponentsModule,
+    MaterialModule,
   ],
   exports:[
-    DefaultComponent 
+    DefaultHomeComponent,DefaultDownloadComponent
   ]
 })
 export class DefaultModule { }

@@ -1,0 +1,95 @@
+* {
+  transition: all 3s ease-in-out;
+}
+.page1 {
+  // margin-top: 15rem;
+  width: 100%;
+  justify-content: space-around;
+}
+.logo {
+  width: 484px;
+  height: 242px;
+  z-index: 1;
+  margin-top: 4rem;
+  line-height: 26px;
+}
+.h3 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #658cc8;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #654182;
+}
+.h1 {
+  line-height: 50px;
+}
+span {
+  font-size: 16px;
+  color: #262626;
+  font-family: 400;
+  line-height: 140%;
+}
+.sallypack {
+  width: 495.45px;
+  height: 495.45px;
+  margin-top: 3.5rem;
+  z-index: 1;
+}
+.sally14 {
+  position: relative;
+  right: 78.5%;
+  top: 20px;
+  width: 241px;
+  height: 331px;
+}
+.sally16 {
+  width: 367px;
+  height: 367px;
+}
+
+.btn {
+  padding: 10px 20px;
+  letter-spacing: 3%;
+  border-radius: 10px;
+}
+.mr-4 {
+  font-size: 14px;
+  background: #fdae55;
+  color: #ffebd5;
+}
+.mr-4:hover {
+  transform: scale(1.1);
+  background: #654182;
+  color: #fff;
+}
+.ml-4 {
+  font-size: 14px;
+  background: #ffebd5;
+  color: #fdae55;
+}
+.ml-4:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #658cc8, #654182);
+  background: -webkit-linear-gradient(45deg, #658cc8, #654182);
+  color: #fdae55;
+}
+.download {
+  position: relative;
+  bottom: 5px;
+}
+.but {
+  margin-left: 0.5rem;
+}
+.sponsors {
+  width: 996px;
+  height: 52px;
+}
+.txt1 {
+  height: 297px;
+  width: 402px;
+  line-height: 25px;
+  margin-top: 7rem;
+}
